@@ -8,7 +8,7 @@
 3) Create native header file by running the following command:
 ```javah -jni -cp ".;path/to/kotlin-runtime.jar" sam.NativeSample```
 * Make sure javah is in your system path. More on [javah](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/javah.html)
-* sam.NativeSample is the class nane that contains native calls.
+* sam.NativeSample is the class name that contains native calls.
 
 4) Once the header file is generated (see ```jni/sam_NativeSample.h```), you can create the implementation file for your header (see ```jni/sam_NativeSampleImp```).
 
